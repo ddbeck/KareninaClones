@@ -6,7 +6,7 @@ import sys
 import click
 import twython
 
-from clones import karenina_clone
+from .clones import karenina_clone
 
 
 def oauth_dance(auth_info):
