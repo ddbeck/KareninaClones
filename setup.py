@@ -28,4 +28,8 @@ setup(
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
+    entry_points="""
+        [console_scripts]
+        kareninaclones=KareninaClones.main:main
+    """
 )
