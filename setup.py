@@ -9,6 +9,7 @@ except ImportError:
 requirements = [
     'click',
     'textblob',
+    'twython',
 ]
 
 setup(

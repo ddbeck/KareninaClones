@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import codecs
 import random
 
 from textblob import Word
@@ -19,7 +18,7 @@ from textblob import Word
 
 
 def data(fpath):
-    with codecs.open(fpath, encoding='utf-8') as fp:
+    with open(fpath) as fp:
         lines = fp.readlines()
     return [line.rstrip('\n') for line in lines]
 
