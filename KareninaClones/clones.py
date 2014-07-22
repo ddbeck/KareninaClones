@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import random
 
 from textblob import Word
@@ -16,9 +17,11 @@ from textblob import Word
 #                                 <negative_prefix><adjective>
 #                                 "in its own way."
 
+ROOT_DIR = os.path.dirname(os.path.realpath(__file__))
+
 
 def data(fpath):
-    with open(fpath) as fp:
+    with open(os.path.join(ROOT_DIR, fpath)) as fp:
         lines = fp.readlines()
     return [line.rstrip('\n') for line in lines]
 
