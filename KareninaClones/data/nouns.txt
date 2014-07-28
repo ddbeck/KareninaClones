@@ -4694,7 +4694,6 @@ endosperm
 endowment
 endurance
 enemy
-enemy-jew
 energy
 enervation
 enforcement
@@ -7121,8 +7120,6 @@ jersey
 jest
 jet
 jet-black
-jew-as-enemy
-jew-baiter
 jewel
 jeweler
 jewelry
