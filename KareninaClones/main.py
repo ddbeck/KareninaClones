@@ -48,12 +48,14 @@ def validate_keyfile(ctx, param, value):
               default=False)
 @click.option('--inaugural', default=False, is_flag=True,
               help="Tweet the first tweet.")
+@click.option('--unicode', 'unicode_', default=False, is_flag=True,
+              help="Tweet the first emoji-based tweet.")
 @click.option('--keyfile', 'auth_info', type=click.File('r'),
               callback=validate_keyfile,
               help='JSON file with Twitter keys and secrets.')
 @click.option('--request-access', default=False, is_flag=True,
               help='Request access key and secret.')
-def main(tweet, inaugural, auth_info, request_access):
+def main(tweet, inaugural, unicode_, auth_info, request_access):
     if auth_info is None and (tweet or request_access):
         click.echo("Twitter operations require a valid keyfile!")
         sys.exit(1)
@@ -64,6 +66,8 @@ def main(tweet, inaugural, auth_info, request_access):
 
     if inaugural:
         clone = karenina_clone(nouns=['family'], adjectives=['happy'])
+    elif unicode_:
+        clone = karenina_clone(nouns=['💩'], adjectives=['unicode'])
     else:
         clone = karenina_clone()
 
