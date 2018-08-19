@@ -7416,7 +7416,6 @@ leather
 leave
 leave-taking
 leavening
-lebensraum
 lecher
 lecture
 lecturer
