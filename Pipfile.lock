@@ -1,0 +1,24 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "74f9174083a736b8d481be2dc6ae2d20387e678499d0f5549ed30c38ee9d8769"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "kareninaclones": {
+            "path": "."
+        }
+    },
+    "develop": {}
+}
