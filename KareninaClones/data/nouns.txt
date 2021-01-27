@@ -1947,7 +1947,6 @@ bishopry
 bison
 bisque
 bit
-bitch
 bite
 biter
 bitterness
@@ -11893,7 +11892,6 @@ sommelier
 somnolence
 son
 son-in-law
-son-of-a-bitch
 sonar
 sonata
 song
@@ -11901,7 +11899,6 @@ songbook
 sonnet
 sonny
 sonny-boy
-sonofabitch
 sonogram
 sonority
 soot
