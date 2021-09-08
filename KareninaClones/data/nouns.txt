@@ -9724,7 +9724,6 @@ pool-care
 pool-equipment
 pool-side
 poor
-poor-white-trash
 pop
 pope
 poplar
@@ -12532,7 +12531,6 @@ swan
 swao
 swap
 swarm
-swastika
 swath
 sway
 swc
